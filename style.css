@@ -1,0 +1,155 @@
+html,
+body {
+  padding: 0px !important;
+  margin: 0px !important;
+}
+/* NAVBAR  */
+nav {
+  backdrop-filter: blur(10px) !important;
+  background-color: rgba(255, 255, 255, 0.158);
+  box-shadow: rgb(80, 77, 77) 0px 10px 30px;
+}
+#logo {
+  height: 80px;
+}
+
+/* Landing Container  */
+
+#video{
+  position: absolute;
+  height: 100vh !important;
+  width: 98.7vw !important;
+  object-fit: cover;
+  background-position: center center;
+  cursor: default;
+}
+
+#wrap-logo-animate {
+  transform: translateZ(0);
+  overflow: hidden;
+}
+#landing-container {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  animation-name: logo-animate;
+  animation-duration: 2s;
+  animation-delay: 4s;
+  overflow: hidden;
+  transform: translateZ(0);
+}
+#landing-container::before {
+  position: absolute;
+  left: 10%;
+  content: "";
+  background-image: url("./images/AR11.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  width: 80vw;
+  filter: opacity(0.4);
+  top: 0px;
+  animation-name: logo-animate;
+  animation-duration: 1s;
+  overflow: hidden;
+}
+#landing-container div {
+  z-index: 2;
+}
+#landing-container div h2 {
+  font-size: 150px !important;
+  text-align: center;
+  font-family: "Kurale", serif;
+}
+#tagline {
+  font-size: 50px;
+  text-align: center;
+  font-family: "Zeyada", cursive;
+}
+@keyframes logo-animate{
+    from{
+        scale: 10;
+    }
+    to{
+        scale: 1;
+    }
+}
+
+/* About Us */
+#About_Us {
+  overflow: hidden;
+  background-image: url("./images/prime.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#About_Us p {
+  font-size: 18px;
+  color: white;
+  font-family:cursive;
+}
+#About_Us div:nth-child(2) img{
+    height: 400px;
+}   
+
+/* EVENTS  */
+#Events{
+    flex-basis: 50% !important;
+}
+.event_cont{
+    background-image: url(./images/prime_sketch.jpg) !important;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 1;
+    color: white;
+    scale: 1;
+    transition: scale 0.25s ease-in-out;
+}
+.event_cont:hover{
+  scale: 1.1;
+}
+
+.card{
+    background: none !important;
+    text-align: center;   
+}
+
+/* Footer */
+#footer {
+  overflow: hidden;
+  background-image: url("./images/megatron.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Universal classes */
+.headings {
+  font-size: 80px !important;
+  font-family: "Kurale", serif;
+  text-shadow: rgb(255, 51, 0) 5px 5px 1px;
+}
+.spec_font{
+    font-size: 25px !important;
+    font-family: "Kurale", serif;
+    text-shadow: rgb(255, 2, 2) 2px 2px 1px;   
+}
+.background {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: max-content;
+  width: 80vw;
+  box-shadow: rgb(117, 116, 116) 1px 1px 100px;
+}
+
+.ease_in{
+  opacity: 1;
+  transition: opacity 2s ease-in-out;
+}
+.ease_out{
+  opacity: 0;
+}
