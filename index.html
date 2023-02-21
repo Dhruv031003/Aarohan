@@ -23,7 +23,7 @@
         <source src="./images/transformer.mp4" type="video/mp4">
     </video>
     <!-- NAVBAR  -->
-    <nav class="navbar navbar-dark navbar-expand-lg bg-body-tertiary fs-5 fixed-top p-1 ease_out" id="navbar">
+    <nav class="navbar navbar-dark navbar-expand-lg bg-body-tertiary fixed-top fs-5 p-1 ease_out" id="navbar">
         <div class="container-fluid">
             <a class="navbar-brand px-5 py-0" href="#"><img src="./images/AR11.png" alt="logo" id="logo"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -31,16 +31,15 @@
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse d-flex justify-content-around" id="navbarSupportedContent">
+            <div class="collapse navbar-collapse flex justify-content-lg-around justify-content-sm-start" id="navbarSupportedContent">
                 <ul class="navbar-nav">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <button class="btn text-light border-0 dropdown-toggle fs-5 py-2" data-bs-toggle="dropdown"
-                            aria-expanded="false">
+                        <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Events
-                        </button>
+                        </a>
                         <ul class="dropdown-menu dropdown-menu-dark">
                             <li><a class="dropdown-item" href="#">Technical Events</a></li>
                             <li><a class="dropdown-item" href="#">Non-Technical Events</a></li>
@@ -189,61 +188,66 @@
 
         <!-- ADDRES AND CONTACT -->
         <footer class="text-light" id="footer">
-            <div class="container m-5 mx-auto w-75 d-flex background">
+            <div class="container m-5 px-5 pt-5 mx-auto w-75 d-flex background">
                 <div class="m-2 p-3 w-50">
                     <h2 class="spec_font fs-1">Aarohan आरोहण 2023</h2>
                     <p class="fs-5">&#169; Rustam Ji Institute of Technology</p>
+                    <div class="m-0 py-3 px-5 w-auto">
+                        <p class="fs-5 spec_font">
+                            Address
+                        </p>
+                        <p class="fs-5">
+                            RJIT, Border Security Force Academy Tekanpur, Gwalior, Madhya Pradesh 475005
+                        </p>
+                        <p class="fs-5 spec_font">
+                            Call Us
+                        </p>
+                        <p>
+                            XXXXXXXXX
+                        </p>
+                        <p class="fs-5 spec_font">
+                            Mail Us
+                        </p>
+                        <p>
+                            <a href="mailto:aarohanrjit@gmail.com" class="fs-5"><b>aarohanrjit@gmail.com</b></a>
+                        </p>
+                    </div>
                 </div>
-                <div class="m-2 py-5 w-auto">
-                    <p class="fs-3">
-                        <u>Address</u>
-                    </p>
-                    <p class="fs-5 p-1">
-                        RJIT,Border Security Force Academy Tekanpur, Gwalior, Madhya Pradesh 475005
-                    </p>
-                    <p class="fs-5 p-1">
-                        Call Us-: XXXXXXXXXXX
-                    </p>
-                    <p class="fs-5 p-1">
-                        Mail Us-:
-                        <a href="mailto:aarohanrjit@gmail.com" class="fs-5"><b>aarohanrjit@gmail.com</b></a>
-                    </p>
-                </div>
+
                 <div class="m-2 py-5">
-                    <iframe class="m-0 p-0" id="map"
+                    <iframe class="p-0" id="map"
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3585.3853446515664!2d78.259682114396!3d26.020944904173465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3976de6e2cd33583%3A0xcadb08fbf8b66e1f!2sRustamji%20Institute%20of%20Technology!5e0!3m2!1sen!2sin!4v1676991020087!5m2!1sen!2sin"
-                        width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        width="100%" height="80%" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                    <div class="container w-100 text-light text-center p-3">
+                        <a href="https://www.facebook.com/profile.php?id=100090188624120" class="mx-4"><img
+                                src="./images/facebook.png" alt=""></a>
+                        <a href="https://www.instagram.com/aarohanrjit_2023/" class="mx-4"><img
+                                src="./images/instagram.png" alt=""></a>
+                        <a href="https://www.linkedin.com/in/aarohan-rjit-65ab80265/" class="mx-4"><img
+                                src="./images/linkedin.png" alt=""></a>
+                        <a href="https://twitter.com/aarohanrjit2023" class="mx-4"><img src="./images/twitter.png"
+                                alt=""></a>
+                    </div>
                 </div>
             </div>
-            <div class="container w-100 text-light text-center mb-3">
-                <a href="https://www.facebook.com/profile.php?id=100090188624120" class="mx-4"><img src="./images/facebook.png" alt=""></a>
-                <a href="https://www.instagram.com/aarohanrjit_2023/" class="mx-4"><img src="./images/instagram.png" alt=""></a>
-                <a href="https://www.linkedin.com/in/aarohan-rjit-65ab80265/" class="mx-4"><img src="./images/linkedin.png" alt=""></a>
-                <a href="https://twitter.com/aarohanrjit2023" class="mx-4"><img src="./images/twitter.png" alt=""></a>
-            </div>
+
         </footer>
     </main>
-
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-        crossorigin="anonymous"></script>
     <script>
         videoend = document.getElementById('video');
-        navbar= document.getElementById('navbar')
-        landing_cont=document.getElementById("wrap-logo-animate")
+        navbar = document.getElementById('navbar')
+        landing_cont = document.getElementById("wrap-logo-animate")
 
-        videoend.onended=function(){
+        videoend.onended = function () {
             navbar.classList.remove('ease_out');
             landing_cont.classList.remove('ease_out');
             navbar.classList.add('ease_in');
             landing_cont.classList.add('ease_in');
         }
-
     </script>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 
 </html>
