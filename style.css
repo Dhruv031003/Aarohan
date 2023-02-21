@@ -146,10 +146,101 @@ nav {
   box-shadow: rgb(117, 116, 116) 1px 1px 100px;
 }
 
+/* Animation */
 .ease_in{
   opacity: 1;
   transition: opacity 2s ease-in-out;
 }
 .ease_out{
   opacity: 0;
+}
+
+/* RESPONSIVENESS */
+@media screen and (max-width:1600px){
+  #About_Us p{
+    font-size: 17px;
+  }
+  #About_Us div:nth-child(2) img{
+      height: 300px;
+      margin: 5px !important;
+      padding: 5px !important;
+  }
+}
+@media screen and (max-width:1500px){
+  #landing-container div h2 {
+    font-size: 80px !important;
+    text-align: center;
+    font-family: "Kurale", serif;
+  }
+  #tagline {
+    font-size: 40px;
+    text-align: center;
+    font-family: "Zeyada", cursive;
+  }
+  .headings{
+    font-size: 40px !important;
+  }
+}
+@media screen and (max-width:1400px){
+  #landing-container div h2 {
+    font-size: 100px !important;
+    text-align: center;
+    font-family: "Kurale", serif;
+  }
+  #tagline {
+    font-size: 50px;
+    text-align: center;
+    font-family: "Zeyada", cursive;
+  }
+  .headings{
+    font-size: 40px !important;
+  }
+  #logo {
+    padding-left: 10px !important;
+  }
+  #About_Us p{
+    font-size: 15px;
+  }
+  #About_Us div:nth-child(2) img{
+      height: 300px;
+  }  
+  .background{
+    width: 95vw !important;
+  }
+}
+@media screen and (max-width:1200px){
+  #About_Us p{
+    font-size: 15px;
+  }
+  #About_Us div:nth-child(2) img{
+      height: 240px;
+  }  
+}
+@media screen and (max-width:1050px){
+  #About_Us p{
+    font-size: 12px;
+    margin: 0px !important;
+    width: 120% !important;
+  }
+  #About_Us div:nth-child(2) img{
+      height: 180px;
+  }  
+  #About_Us h2{
+    margin: 0px !important;
+  }
+}
+@media screen and (max-width:800px) {
+  #landing-container div h2 {
+    font-size: 70px !important;
+    text-align: center;
+    font-family: "Kurale", serif;
+  }
+  #tagline {
+    font-size: 30px;
+    text-align: center;
+    font-family: "Zeyada", cursive;
+  }
+  .headings{
+    font-size: 35px !important;
+  }
 }
