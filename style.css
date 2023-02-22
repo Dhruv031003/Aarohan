@@ -18,7 +18,7 @@ nav {
 #video {
   position: absolute;
   height: 100vh !important;
-  width: 98.7vw !important;
+  width: 100% !important;
   object-fit: cover;
   background-position: center center;
   cursor: default;
