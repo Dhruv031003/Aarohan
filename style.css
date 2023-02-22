@@ -6,7 +6,7 @@ body {
 /* NAVBAR  */
 nav {
   backdrop-filter: blur(10px) !important;
-  background-color: rgba(255, 255, 255, 0.158);
+  background-color: rgba(255, 255, 255, 0.089);
   box-shadow: rgb(80, 77, 77) 0px 10px 30px;
 }
 #logo {
