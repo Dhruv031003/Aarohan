@@ -127,8 +127,11 @@ nav {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  height: max-content !important;
 }
-
+#footer div:nth-child(2) div {
+  height: 90% !important;
+}
 /* Universal classes */
 .headings {
   font-size: 80px !important;
@@ -157,7 +160,7 @@ nav {
 }
 
 /* RESPONSIVENESS */
-@media screen and (min-width:1500px){
+@media screen and (min-width: 1500px) {
   #About_Us p {
     font-size: 24px;
     width: 110% !important;
@@ -214,7 +217,7 @@ nav {
   #About_Us p {
     font-size: 20px;
   }
-  #About_Us div:nth-child(2) img{
+  #About_Us div:nth-child(2) img {
     height: 300px;
   }
   #About_Us div:nth-child(2) {
@@ -222,6 +225,34 @@ nav {
   }
   .background {
     width: 95vw !important;
+  }
+}
+@media screen and (max-width: 1300px) {
+  #footer > div > div {
+    width: 90% !important;
+  }
+  #footer > div {
+    padding: 5px !important;
+  }
+  #footer > div > div div {
+    padding: 15px !important;
+  }
+  #footer div:nth-child(2) div {
+    height: 70% !important;
+  }
+  #footer div:nth-child(2):nth-child(2) {
+    width: 80% !important;
+  }
+  #footer > div > div {
+    padding: 0px !important;
+  }
+  #map {
+    margin: 20px !important;
+  }
+  #footer div:nth-child(2) > div iframe {
+    height: 250px !important;
+    width: 250px !important;
+    padding: 0px !important;
   }
 }
 @media screen and (max-width: 1200px) {
@@ -249,7 +280,7 @@ nav {
   .headings {
     font-size: 35px !important;
   }
-  .spec_font{
+  .spec_font {
     font-size: 22px !important;
   }
 }
@@ -284,11 +315,11 @@ nav {
     margin: 0px auto !important;
     width: 90% !important;
   }
-  #About_Us div:nth-child(1){
+  #About_Us div:nth-child(1) {
     width: 100% !important;
     padding: 5px 0px !important;
   }
-  #About_Us div:nth-child(2){
+  #About_Us div:nth-child(2) {
     width: 100% !important;
     padding: 10px 0px !important;
   }
@@ -300,18 +331,22 @@ nav {
     margin: 0px auto !important;
     width: 90%;
   }
-  .spec_font{
+  #footer p,#footer a{
+    font-size: 16px !important;
+  }
+  .spec_font {
     font-size: 19px !important;
   }
+  
 }
 @media screen and (max-width: 700px) {
   #About_Us p {
     font-size: 13px;
   }
-  #About_us div:nth-child(1){
+  #About_us div:nth-child(1) {
     padding: 5px !important;
   }
-  #About_Us div:nth-child(2){
+  #About_Us div:nth-child(2) {
     padding: 0px !important;
     width: 100%;
   }
@@ -320,8 +355,8 @@ nav {
     padding: 0px !important;
     padding-left: 10px;
   }
-  .spec_font{
-    font-size: 18px !important; 
+  .spec_font {
+    font-size: 18px !important;
   }
 }
 @media screen and (max-width: 600px) {
@@ -332,5 +367,24 @@ nav {
     height: 200px;
     margin: auto 5px !important;
     padding: 5px !important;
+  }
+  #footer img {
+    width: 30px;
+  }
+  #footer div:nth-child(2):nth-child(2) {
+    width: 100% !important;
+  }
+  #footer div:nth-child(2) div {
+    height: max-content !important;
+  }
+  #footer div:nth-child(2) div{
+    height: max-content !important;
+  }
+  #footer div:nth-child(2) div iframe{
+    height: 100% !important;
+    width: 80% !important;
+  }
+  #map{
+    height: 10% !important;
   }
 }
