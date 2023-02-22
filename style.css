@@ -15,7 +15,7 @@ nav {
 
 /* Landing Container  */
 
-#video{
+#video {
   position: absolute;
   height: 100vh !important;
   width: 98.7vw !important;
@@ -70,13 +70,13 @@ nav {
   text-align: center;
   font-family: "Zeyada", cursive;
 }
-@keyframes logo-animate{
-    from{
-        scale: 10;
-    }
-    to{
-        scale: 1;
-    }
+@keyframes logo-animate {
+  from {
+    scale: 10;
+  }
+  to {
+    scale: 1;
+  }
 }
 
 /* About Us */
@@ -90,34 +90,34 @@ nav {
 #About_Us p {
   font-size: 18px;
   color: white;
-  font-family:cursive;
+  font-family: cursive;
   width: 120% !important;
 }
-#About_Us div:nth-child(2) img{
-    height: 400px;
-}   
+#About_Us div:nth-child(2) img {
+  height: 400px;
+}
 
 /* EVENTS  */
-#Events{
-    flex-basis: 50% !important;
+#Events {
+  flex-basis: 50% !important;
 }
-.event_cont{
-    background-image: url(./images/prime_sketch.jpg) !important;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    z-index: 1;
-    color: white;
-    scale: 1;
-    transition: scale 0.25s ease-in-out;
+.event_cont {
+  background-image: url(./images/prime_sketch.jpg) !important;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 1;
+  color: white;
+  scale: 1;
+  transition: scale 0.25s ease-in-out;
 }
-.event_cont:hover{
+.event_cont:hover {
   scale: 1.1;
 }
 
-.card{
-    background: none !important;
-    text-align: center;   
+.card {
+  background: none !important;
+  text-align: center;
 }
 
 /* Footer */
@@ -135,10 +135,10 @@ nav {
   font-family: "Kurale", serif;
   text-shadow: rgb(255, 51, 0) 5px 5px 1px;
 }
-.spec_font{
-    font-size: 25px !important;
-    font-family: "Kurale", serif;
-    text-shadow: rgb(255, 2, 2) 2px 2px 1px;   
+.spec_font {
+  font-size: 25px !important;
+  font-family: "Kurale", serif;
+  text-shadow: rgb(255, 2, 2) 2px 2px 1px;
 }
 .background {
   background-color: rgba(0, 0, 0, 0.5);
@@ -148,26 +148,38 @@ nav {
 }
 
 /* Animation */
-.ease_in{
+.ease_in {
   opacity: 1;
   transition: opacity 2s ease-in-out;
 }
-.ease_out{
+.ease_out {
   opacity: 0;
 }
 
 /* RESPONSIVENESS */
-@media screen and (max-width:1600px){
-  #About_Us p{
-    font-size: 17px;
+@media screen and (min-width:1500px){
+  #About_Us p {
+    font-size: 18px;
+    width: 110% !important;
   }
-  #About_Us div:nth-child(2) img{
-      height: 300px;
-      margin: 5px !important;
-      padding: 5px !important;
+  #About_Us div:nth-child(2) img {
+    height: 340px;
+    margin-right: 0px !important;
+    margin-left: 40px !important;
+    padding: 15px !important;
   }
 }
-@media screen and (max-width:1500px){
+@media screen and (max-width: 1600px) {
+  #About_Us p {
+    font-size: 17px;
+  }
+  #About_Us div:nth-child(2) img {
+    height: 280px;
+    margin: 5px !important;
+    padding: 5px !important;
+  }
+}
+@media screen and (max-width: 1500px) {
   #landing-container div h2 {
     font-size: 80px !important;
     text-align: center;
@@ -178,11 +190,11 @@ nav {
     text-align: center;
     font-family: "Zeyada", cursive;
   }
-  .headings{
+  .headings {
     font-size: 40px !important;
   }
 }
-@media screen and (max-width:1400px){
+@media screen and (max-width: 1400px) {
   #landing-container div h2 {
     font-size: 70px !important;
     text-align: center;
@@ -193,62 +205,67 @@ nav {
     text-align: center;
     font-family: "Zeyada", cursive;
   }
-  .headings{
+  .headings {
     font-size: 40px !important;
   }
   #logo {
     padding-left: 10px !important;
   }
-  #About_Us p{
+  #About_Us p {
     font-size: 15px;
   }
   #About_Us div:nth-child(2) img{
-      height: 300px;
-  } 
-  #About_Us div:nth-child(2){
+    height: 300px;
+  }
+  #About_Us div:nth-child(2) {
     margin: 0px !important;
-  
-}  
-  .background{
+  }
+  .background {
     width: 95vw !important;
   }
 }
-@media screen and (max-width:1200px){
-  #About_Us p{
+@media screen and (max-width: 1200px) {
+  #About_Us p {
     font-size: 15px;
     width: 120%;
   }
-  #About_Us div:nth-child(2) img{
-      height: 240px;
-      padding-right: 10px !important;
-      padding-left: 20% !important;
-  }  
+  #About_Us div:nth-child(2) img {
+    height: 240px;
+    padding-right: 10px !important;
+    padding-left: 20% !important;
+  }
 }
-@media screen and (max-width:1050px){
-  #About_Us p{
+@media screen and (max-width: 1050px) {
+  #About_Us p {
     font-size: 12px;
     margin: 0px !important;
   }
-  #About_Us div:nth-child(2) img{
-      height: 220px;
-  }  
-  #About_Us h2{
+  #About_Us div:nth-child(2) img {
+    height: 220px;
+  }
+  #About_Us h2 {
     margin: 0px !important;
   }
+  .headings {
+    font-size: 35px !important;
+  }
+  .spec_font{
+    font-size: 22px !important;
+  }
 }
-@media screen and (max-width: 900px){
-  #About_Us p{
+@media screen and (max-width: 900px) {
+  #About_Us p {
     font-size: 12px;
     margin: 0px !important;
   }
-  #About_Us div:nth-child(2) img{
-      height: 210px;
-  }  
-  #About_Us h2{
+  #About_Us div:nth-child(2) img {
+    height: 210px;
+  }
+  #About_Us h2 {
     margin: 0px !important;
   }
 }
-@media screen and (max-width:800px) {
+@media screen and (max-width: 800px) {
   #landing-container div h2 {
     font-size: 70px !important;
     text-align: center;
@@ -259,17 +276,61 @@ nav {
     text-align: center;
     font-family: "Zeyada", cursive;
   }
-  .headings{
+  .headings {
     font-size: 35px !important;
   }
-  #About_Us p{
+  #About_Us p {
     font-size: 12px;
-    margin: 0px !important;
+    margin: 0px auto !important;
+    width: 90% !important;
   }
-  #About_Us div:nth-child(2) img{
-      height: 180px;
-  }  
-  #About_Us h2{
-    margin: 0px !important;
+  #About_Us div:nth-child(1){
+    width: 100% !important;
+    padding: 5px 0px !important;
+  }
+  #About_Us div:nth-child(2){
+    width: 100% !important;
+    padding: 10px 0px !important;
+  }
+  #About_Us div:nth-child(2) img {
+    height: 220px;
+    padding: 0px 10px !important;
+  }
+  #About_Us h2 {
+    margin: 0px auto !important;
+    width: 90%;
+  }
+  .spec_font{
+    font-size: 19px !important;
+  }
+}
+@media screen and (max-width: 700px) {
+  #About_Us p {
+    font-size: 13px;
+  }
+  #About_us div:nth-child(1){
+    padding: 5px !important;
+  }
+  #About_Us div:nth-child(2){
+    padding: 0px !important;
+    width: 100%;
+  }
+  #About_Us div:nth-child(2) img {
+    height: 160px;
+    padding: 0px !important;
+    padding-left: 10px;
+  }
+  .spec_font{
+    font-size: 18px !important; 
+  }
+}
+@media screen and (max-width: 600px) {
+  #About_Us p {
+    font-size: 13px;
+  }
+  #About_Us div:nth-child(2) img {
+    height: 200px;
+    margin: auto 5px !important;
+    padding: 5px !important;
   }
 }
