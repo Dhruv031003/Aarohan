@@ -91,6 +91,7 @@ nav {
   font-size: 18px;
   color: white;
   font-family:cursive;
+  width: 120% !important;
 }
 #About_Us div:nth-child(2) img{
     height: 400px;
@@ -183,7 +184,7 @@ nav {
 }
 @media screen and (max-width:1400px){
   #landing-container div h2 {
-    font-size: 100px !important;
+    font-size: 70px !important;
     text-align: center;
     font-family: "Kurale", serif;
   }
@@ -203,7 +204,11 @@ nav {
   }
   #About_Us div:nth-child(2) img{
       height: 300px;
-  }  
+  } 
+  #About_Us div:nth-child(2){
+    margin: 0px !important;
+  
+}  
   .background{
     width: 95vw !important;
   }
@@ -211,19 +216,33 @@ nav {
 @media screen and (max-width:1200px){
   #About_Us p{
     font-size: 15px;
+    width: 120%;
   }
   #About_Us div:nth-child(2) img{
       height: 240px;
+      padding-right: 10px !important;
+      padding-left: 20% !important;
   }  
 }
 @media screen and (max-width:1050px){
   #About_Us p{
     font-size: 12px;
     margin: 0px !important;
-    width: 120% !important;
   }
   #About_Us div:nth-child(2) img{
-      height: 180px;
+      height: 220px;
+  }  
+  #About_Us h2{
+    margin: 0px !important;
+  }
+}
+@media screen and (max-width: 900px){
+  #About_Us p{
+    font-size: 12px;
+    margin: 0px !important;
+  }
+  #About_Us div:nth-child(2) img{
+      height: 210px;
   }  
   #About_Us h2{
     margin: 0px !important;
@@ -242,5 +261,15 @@ nav {
   }
   .headings{
     font-size: 35px !important;
+  }
+  #About_Us p{
+    font-size: 12px;
+    margin: 0px !important;
+  }
+  #About_Us div:nth-child(2) img{
+      height: 180px;
+  }  
+  #About_Us h2{
+    margin: 0px !important;
   }
 }
