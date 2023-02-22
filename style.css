@@ -88,9 +88,9 @@ nav {
   background-position: center;
 }
 #About_Us p {
-  font-size: 18px;
+  font-size: 26px;
   color: white;
-  font-family: cursive;
+  font-family: "Kurale", serif;
   width: 120% !important;
 }
 #About_Us div:nth-child(2) img {
@@ -159,7 +159,7 @@ nav {
 /* RESPONSIVENESS */
 @media screen and (min-width:1500px){
   #About_Us p {
-    font-size: 18px;
+    font-size: 24px;
     width: 110% !important;
   }
   #About_Us div:nth-child(2) img {
@@ -171,7 +171,7 @@ nav {
 }
 @media screen and (max-width: 1600px) {
   #About_Us p {
-    font-size: 17px;
+    font-size: 22px;
   }
   #About_Us div:nth-child(2) img {
     height: 280px;
@@ -212,7 +212,7 @@ nav {
     padding-left: 10px !important;
   }
   #About_Us p {
-    font-size: 15px;
+    font-size: 20px;
   }
   #About_Us div:nth-child(2) img{
     height: 300px;
@@ -226,7 +226,7 @@ nav {
 }
 @media screen and (max-width: 1200px) {
   #About_Us p {
-    font-size: 15px;
+    font-size: 18px;
     width: 120%;
   }
   #About_Us div:nth-child(2) img {
@@ -237,7 +237,7 @@ nav {
 }
 @media screen and (max-width: 1050px) {
   #About_Us p {
-    font-size: 12px;
+    font-size: 16px;
     margin: 0px !important;
   }
   #About_Us div:nth-child(2) img {
@@ -255,7 +255,7 @@ nav {
 }
 @media screen and (max-width: 900px) {
   #About_Us p {
-    font-size: 12px;
+    font-size: 15px;
     margin: 0px !important;
   }
   #About_Us div:nth-child(2) img {
