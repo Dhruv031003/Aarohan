@@ -149,6 +149,9 @@ nav {
   width: 80vw;
   box-shadow: rgb(117, 116, 116) 1px 1px 100px;
 }
+.btn-style{
+  font-family: "Kurale", serif !important;
+}
 
 /* Animation */
 .ease_in {
