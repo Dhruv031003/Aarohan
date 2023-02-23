@@ -3,18 +3,38 @@ body {
   padding: 0px !important;
   margin: 0px !important;
 }
+:root {
+  --red: rgb(201, 0, 0);
+}
+/* Button special css  */
+.btn{
+  color: #fff !important;
+  border-color: var(--red) !important;
+}
+
+.btn:hover,
+.btn:focus,
+.btn:active,
+.btn.active,
+.open .dropdown-toggle.btn-default {
+  background-color:var(--red) !important;
+  color: #fff !important;
+  border-color:var(--red) !important;
+}
+
+
 /* NAVBAR  */
 nav {
   backdrop-filter: blur(7px) !important;
-  background-color: rgba(0,0,0, 0.25);
+  background-color: rgba(0, 0, 0, 0.25);
   box-shadow: rgb(80, 77, 77) 0px 10px 30px;
 }
-nav a{
+nav a {
   font-size: 20px !important;
   font-weight: 400;
   margin-right: 15px !important;
 }
-.navbar-brand{
+.navbar-brand {
   padding-bottom: 0px !important;
 }
 #logo {
@@ -35,7 +55,7 @@ nav a{
   transform: translateZ(0);
   overflow: hidden;
 }
-#wrap-logo-animate>div{
+#wrap-logo-animate > div {
   background-color: rgba(0, 0, 0, 0.5);
 }
 #landing-container {
@@ -55,13 +75,13 @@ nav a{
   position: absolute;
   left: 10%;
   content: "";
-  background-image: url("./images/AR11.png");
+  background-image: url("./images/1659685106371.jpg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   height: 100vh;
   width: 80vw;
-  filter: opacity(0.6);
+  filter: opacity(0.9);
   top: 0px;
   animation-name: logo-animate;
   animation-duration: 1s;
@@ -71,12 +91,12 @@ nav a{
   z-index: 2;
 }
 #landing-container div h2 {
-  font-size: 150px !important;
+  font-size: 110px !important;
   text-align: center;
   font-family: "Kurale", serif;
 }
 #tagline {
-  font-size: 50px;
+  font-size: 40px;
   text-align: center;
   font-family: "Zeyada", cursive;
 }
@@ -92,37 +112,40 @@ nav a{
 /* About Us */
 #About_Us {
   overflow: hidden;
-  background-image: url("./images/prime.jpg");
-  background-size: cover;
+  background-image: url("./images/half.png");
+  background-size: 50%;
+  background-color: black;
   background-repeat: no-repeat;
   background-position: center;
 }
 #About_Us p {
-  font-size: 26px;
+  font-size: 20px !important;
   color: white;
-  font-family: "Kurale", serif;
   width: 120% !important;
 }
 #About_Us div:nth-child(2) img {
   height: 400px;
 }
-#moto{
+#About_Us .spec_font {
+  font-family: "Kurale", serif;
+}
+#moto {
   display: inline-block;
   text-align: center;
-  transition: background-color 0.25s ease-in-out,scale 0.25s ease-in-out;
+  transition: background-color 0.25s ease-in-out, scale 0.25s ease-in-out;
 }
-#moto:hover{
+#moto:hover {
   scale: 1.05 !important;
   background-color: rgba(255, 249, 167, 0.164);
-  border-radius: 10px ;
+  border-radius: 10px;
 }
 
 /* EVENTS  */
 #Events {
   flex-basis: 50% !important;
 }
-#Events .spec_font{
-  border-bottom: 3px solid rgb(133, 1, 1);
+#Events .spec_font {
+  border-bottom: 3px solid var(--red);
 }
 .event_cont {
   background-image: url(./images/prime_sketch.png) !important;
@@ -146,7 +169,7 @@ nav a{
 /* Footer */
 #footer {
   overflow: hidden;
-  background-image: url("./images/megatron.jpg");
+  background-image: url("./images/frame.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -155,15 +178,15 @@ nav a{
 #footer div:nth-child(2) div {
   height: 90% !important;
 }
-#footer .spec_font{
+#footer .spec_font {
   border-bottom: none;
 }
-#footer h2{
-  border-bottom: 3px solid rgb(133, 1, 1) !important;
+#footer h2 {
+  border-bottom: 3px solid var(--red) !important;
 }
-#footer a{
+#footer a {
   font-weight: bolder;
-  color:rgb(133, 1, 1);
+  color: var(--red);
   text-decoration-color: rgba(255, 255, 255, 0.212);
   background-color: rgba(255, 255, 255, 0.048);
   border-radius: 10px;
@@ -173,13 +196,13 @@ nav a{
 .headings {
   font-size: 80px !important;
   font-family: "Kurale", serif;
-  text-shadow: rgb(133, 1, 1) 5px 5px 1px;
-  border-bottom: 3px solid rgb(133, 1, 1);
+  text-shadow: var(--red) 5px 5px 5px;
+  border-bottom: 3px solid var(--red);
 }
 .spec_font {
   font-size: 25px !important;
   font-family: "Kurale", serif;
-  text-shadow: rgb(133, 1, 1) 6px 2px 1px;
+  text-shadow: var(--red) 6px 2px 1px;
   display: inline-block;
 }
 .background {
@@ -188,7 +211,7 @@ nav a{
   width: 80vw;
   box-shadow: rgb(117, 116, 116) 1px 1px 100px;
 }
-.btn-style{
+.btn-style {
   font-family: "Kurale", serif !important;
 }
 
@@ -257,7 +280,7 @@ nav a{
     padding-left: 10px !important;
   }
   #About_Us p {
-    font-size: 20px;
+    font-size: 18px !important;
   }
   #About_Us div:nth-child(2) img {
     height: 300px;
@@ -270,7 +293,7 @@ nav a{
   }
 }
 @media screen and (max-width: 1300px) {
-  #footer>div{
+  #footer > div {
     width: 90vw !important;
     padding: 10px !important;
   }
@@ -301,7 +324,7 @@ nav a{
 }
 @media screen and (max-width: 1200px) {
   #About_Us p {
-    font-size: 18px;
+    font-size: 16px !important;
     width: 120%;
   }
   #About_Us div:nth-child(2) img {
@@ -312,7 +335,7 @@ nav a{
 }
 @media screen and (max-width: 1050px) {
   #About_Us p {
-    font-size: 16px;
+    font-size: 15px !important;
     margin: 0px !important;
   }
   #About_Us div:nth-child(2) img {
@@ -329,10 +352,6 @@ nav a{
   }
 }
 @media screen and (max-width: 900px) {
-  #About_Us p {
-    font-size: 15px;
-    margin: 0px !important;
-  }
   #About_Us div:nth-child(2) img {
     height: 210px;
   }
@@ -375,13 +394,13 @@ nav a{
     margin: 0px auto !important;
     width: 90%;
   }
-  #footer p,#footer a{
+  #footer p,
+  #footer a {
     font-size: 16px !important;
   }
   .spec_font {
     font-size: 19px !important;
   }
-  
 }
 @media screen and (max-width: 700px) {
   #About_Us p {
@@ -421,14 +440,14 @@ nav a{
   #footer div:nth-child(2) div {
     height: max-content !important;
   }
-  #footer div:nth-child(2) div{
+  #footer div:nth-child(2) div {
     height: max-content !important;
   }
-  #footer div:nth-child(2) div iframe{
+  #footer div:nth-child(2) div iframe {
     height: 100% !important;
     width: 80% !important;
   }
-  #map{
+  #map {
     height: 10% !important;
   }
 }
