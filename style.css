@@ -5,9 +5,17 @@ body {
 }
 /* NAVBAR  */
 nav {
-  backdrop-filter: blur(10px) !important;
-  background-color: rgba(255, 255, 255, 0.089);
+  backdrop-filter: blur(7px) !important;
+  background-color: rgba(0,0,0, 0.25);
   box-shadow: rgb(80, 77, 77) 0px 10px 30px;
+}
+nav a{
+  font-size: 20px !important;
+  font-weight: 400;
+  margin-right: 15px !important;
+}
+.navbar-brand{
+  padding-bottom: 0px !important;
 }
 #logo {
   height: 80px;
@@ -26,6 +34,9 @@ nav {
 #wrap-logo-animate {
   transform: translateZ(0);
   overflow: hidden;
+}
+#wrap-logo-animate>div{
+  background-color: rgba(0, 0, 0, 0.315);
 }
 #landing-container {
   color: white;
@@ -50,7 +61,7 @@ nav {
   background-position: center;
   height: 100vh;
   width: 80vw;
-  filter: opacity(0.4);
+  filter: opacity(0.6);
   top: 0px;
   animation-name: logo-animate;
   animation-duration: 1s;
@@ -101,7 +112,7 @@ nav {
   transition: background-color 0.25s ease-in-out,scale 0.25s ease-in-out;
 }
 #moto:hover{
-  scale: 1.1 !important;
+  scale: 1.05 !important;
   background-color: rgba(255, 249, 167, 0.164);
   border-radius: 10px ;
 }
