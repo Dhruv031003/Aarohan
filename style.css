@@ -358,6 +358,7 @@ nav a {
   #About_Us h2 {
     margin: 0px !important;
   }
+  
 }
 @media screen and (max-width: 800px) {
   #landing-container div h2 {
@@ -400,6 +401,9 @@ nav a {
   }
   .spec_font {
     font-size: 19px !important;
+  }
+  #landing-container::before{
+    background-size: cover !important;  
   }
 }
 @media screen and (max-width: 700px) {
