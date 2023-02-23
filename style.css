@@ -12,7 +12,6 @@ nav {
 #logo {
   height: 80px;
 }
-
 /* Landing Container  */
 
 #video {
@@ -96,10 +95,23 @@ nav {
 #About_Us div:nth-child(2) img {
   height: 400px;
 }
+#moto{
+  display: inline-block;
+  text-align: center;
+  transition: background-color 0.25s ease-in-out,scale 0.25s ease-in-out;
+}
+#moto:hover{
+  scale: 1.1 !important;
+  background-color: rgba(255, 249, 167, 0.164);
+  border-radius: 10px ;
+}
 
 /* EVENTS  */
 #Events {
   flex-basis: 50% !important;
+}
+#Events .spec_font{
+  border-bottom: 3px solid rgb(133, 1, 1);
 }
 .event_cont {
   background-image: url(./images/prime_sketch.jpg) !important;
@@ -132,16 +144,29 @@ nav {
 #footer div:nth-child(2) div {
   height: 90% !important;
 }
+#footer .spec_font{
+  border-bottom: none;
+}
+#footer h2{
+  border-bottom: 3px solid rgb(133, 1, 1) !important;
+}
+#footer a{
+  font-weight: bolder;
+  color:rgb(133, 1, 1);
+  text-decoration-color: rgba(255, 255, 255, 0.212);
+}
 /* Universal classes */
 .headings {
   font-size: 80px !important;
   font-family: "Kurale", serif;
-  text-shadow: rgb(255, 51, 0) 5px 5px 1px;
+  text-shadow: rgb(133, 1, 1) 5px 5px 1px;
+  border-bottom: 3px solid rgb(133, 1, 1);
 }
 .spec_font {
   font-size: 25px !important;
   font-family: "Kurale", serif;
-  text-shadow: rgb(255, 2, 2) 2px 2px 1px;
+  text-shadow: rgb(133, 1, 1) 6px 2px 1px;
+  display: inline-block;
 }
 .background {
   background-color: rgba(0, 0, 0, 0.5);
@@ -165,7 +190,7 @@ nav {
 /* RESPONSIVENESS */
 @media screen and (min-width: 1500px) {
   #About_Us p {
-    font-size: 24px;
+    font-size: 23px;
     width: 110% !important;
   }
   #About_Us div:nth-child(2) img {
@@ -231,11 +256,13 @@ nav {
   }
 }
 @media screen and (max-width: 1300px) {
+  #footer>div{
+    width: 90vw !important;
+    padding: 10px !important;
+  }
   #footer > div > div {
     width: 90% !important;
-  }
-  #footer > div {
-    padding: 5px !important;
+    text-align: center !important;
   }
   #footer > div > div div {
     padding: 15px !important;
