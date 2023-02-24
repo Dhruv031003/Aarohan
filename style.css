@@ -111,8 +111,8 @@
   }
 }
 
-/* About Us */
-#About_Us {
+/* Info containers*/
+.info-cont {
   overflow: hidden;
   background-image: url("./images/half.png");
   background-size: 50%;
@@ -120,15 +120,15 @@
   background-repeat: no-repeat;
   background-position: center;
 }
-#About_Us p {
+.info-cont p {
   font-size: 20px !important;
   color: white;
   width: 120% !important;
 }
-#About_Us div:nth-child(2) img {
+.info-cont div:nth-child(2) img {
   height: 400px;
 }
-#About_Us .spec_font {
+.info-cont .spec_font {
   font-family: "Kurale", serif;
 }
 #moto {
@@ -141,7 +141,10 @@
   background-color: rgba(255, 249, 167, 0.164);
   border-radius: 10px;
 }
-
+/* About Aarohan  */
+#About_Aarohan{
+  background-image: url(./images/dp.jpg) !important;
+}
 /* EVENTS  */
 #Events {
   flex-basis: 50% !important;
@@ -206,11 +209,11 @@
 
 /* RESPONSIVENESS */
 @media screen and (min-width: 1500px) {
-  #About_Us p {
+  .info-cont p {
     font-size: 23px;
     width: 110% !important;
   }
-  #About_Us div:nth-child(2) img {
+  .info-cont div:nth-child(2) img {
     height: 340px;
     margin-right: 0px !important;
     margin-left: 40px !important;
@@ -218,10 +221,10 @@
   }
 }
 @media screen and (max-width: 1600px) {
-  #About_Us p {
+  .info-cont p {
     font-size: 22px;
   }
-  #About_Us div:nth-child(2) img {
+  .info-cont div:nth-child(2) img {
     height: 280px;
     margin: 5px !important;
     padding: 5px !important;
@@ -259,13 +262,13 @@
   #logo {
     padding-left: 10px !important;
   }
-  #About_Us p {
+  .info-cont p {
     font-size: 18px !important;
   }
-  #About_Us div:nth-child(2) img {
+  .info-cont div:nth-child(2) img {
     height: 300px;
   }
-  #About_Us div:nth-child(2) {
+  .info-cont div:nth-child(2) {
     margin: 0px !important;
   }
   .background {
@@ -303,25 +306,25 @@
   }
 }
 @media screen and (max-width: 1200px) {
-  #About_Us p {
+  .info-cont p {
     font-size: 16px !important;
     width: 120%;
   }
-  #About_Us div:nth-child(2) img {
+  .info-cont div:nth-child(2) img {
     height: 240px;
     padding-right: 10px !important;
     padding-left: 20% !important;
   }
 }
 @media screen and (max-width: 1050px) {
-  #About_Us p {
+  .info-cont p {
     font-size: 15px !important;
     margin: 0px !important;
   }
-  #About_Us div:nth-child(2) img {
+  .info-cont div:nth-child(2) img {
     height: 220px;
   }
-  #About_Us h2 {
+  .info-cont h2 {
     margin: 0px !important;
   }
   .headings {
@@ -332,10 +335,10 @@
   }
 }
 @media screen and (max-width: 900px) {
-  #About_Us div:nth-child(2) img {
+  .info-cont div:nth-child(2) img {
     height: 210px;
   }
-  #About_Us h2 {
+  .info-cont h2 {
     margin: 0px !important;
   }
 }
@@ -353,24 +356,24 @@
   .headings {
     font-size: 35px !important;
   }
-  #About_Us p {
+  .info-cont p {
     font-size: 12px;
     margin: 0px auto !important;
     width: 90% !important;
   }
-  #About_Us div:nth-child(1) {
+  .info-cont div:nth-child(1) {
     width: 100% !important;
     padding: 5px 0px !important;
   }
-  #About_Us div:nth-child(2) {
+  .info-cont div:nth-child(2) {
     width: 100% !important;
     padding: 10px 0px !important;
   }
-  #About_Us div:nth-child(2) img {
+  .info-cont div:nth-child(2) img {
     height: 220px;
     padding: 0px 10px !important;
   }
-  #About_Us h2 {
+  .info-cont h2 {
     margin: 0px auto !important;
     width: 90%;
   }
@@ -390,17 +393,17 @@
   }
 }
 @media screen and (max-width: 700px) {
-  #About_Us p {
+  .info-cont p {
     font-size: 13px;
   }
-  #About_us div:nth-child(1) {
+  .info-cont div:nth-child(1) {
     padding: 5px !important;
   }
-  #About_Us div:nth-child(2) {
+  .info-cont div:nth-child(2) {
     padding: 0px !important;
     width: 100%;
   }
-  #About_Us div:nth-child(2) img {
+  .info-cont div:nth-child(2) img {
     height: 160px;
     padding: 0px !important;
     padding-left: 10px;
@@ -410,10 +413,10 @@
   }
 }
 @media screen and (max-width: 600px) {
-  #About_Us p {
+  .info-cont p {
     font-size: 13px;
   }
-  #About_Us div:nth-child(2) img {
+  .info-cont div:nth-child(2) img {
     height: 200px;
     margin: auto 5px !important;
     padding: 5px !important;
