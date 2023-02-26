@@ -300,7 +300,7 @@
         //     document.getElementById('loader').style.display="none";
         //     video.style.display="block";
         // }
-        if (video.readyState >= video.HAVE_FUTURE_DATA) {
+        if (video.readyState >= video.HAVE_ENOUGH_DATA) {
             document.getElementById('loader').style.display = "none";
             video.style.display = "block";
         } else {
