@@ -16,7 +16,7 @@
   width: 100% !important;
   box-shadow: rgb(126, 126, 126) 2px 2px 50px;
 }
-.event_cont .spec_font{
+.event_cont .spec_font {
   font-size: 40px !important;
 }
 .card {
@@ -24,6 +24,17 @@
   text-align: center;
 }
 .event_cont img {
-  height: 450px !important;
+  height: 400px !important;
   width: 350px !important;
+}
+.cont{
+  width: 70% !important;
+}
+@media screen and (max-width: 800px) {
+  .cont {
+    width: 90vw !important;
+  }
+  .event_cont img {
+    height: 350px !important;
+  }
 }
