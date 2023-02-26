@@ -1,0 +1,29 @@
+.headings {
+  font-size: 40px !important;
+}
+
+#heading {
+  margin-top: 93px;
+}
+
+/* Card styles */
+.event_cont {
+  background: linear-gradient(to right, transparent, rgba(255, 0, 0, 0.25));
+  z-index: 1;
+  color: white;
+  scale: 1;
+  transition: scale 0.25s ease-in-out;
+  width: 100% !important;
+  box-shadow: rgb(126, 126, 126) 2px 2px 50px;
+}
+.event_cont .spec_font{
+  font-size: 40px !important;
+}
+.card {
+  background: none !important;
+  text-align: center;
+}
+.event_cont img {
+  height: 450px !important;
+  width: 350px !important;
+}

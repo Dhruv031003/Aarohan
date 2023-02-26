@@ -1,10 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aarohan | Technical Events</title>
+    <title>Aarohan | Non-Technical Events</title>
+    <link rel="stylesheet" href="./styles/common.css">
+    <link rel="stylesheet" href="./styles/technical_events.css">
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,15 +18,124 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Zeyada&display=swap" rel="stylesheet">
 </head>
+
 <body class="bg-black">
-    <div class="container w-75">
-        <h2>
-            Technical events
-        </h2>
-    </div>
+    <nav class="navbar navbar-dark navbar-expand-lg bg-body-tertiary fixed-top fs-5 p-1 ease_out" id="navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="./images/AR11.png" class="px-5 py-0" alt="logo" id="logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-lg-around justify-content-sm-start"
+                id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Events
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark">
+                            <li><a class="dropdown-item" href="./technical_events.html">Technical Events</a></li>
+                            <li><a class="dropdown-item" href="./non_technical_events.html">Non-Technical Events</a>
+                            </li>
+                            <li><a class="dropdown-item" href="./workshops.html">Workshops</a></li>
+                            <li><a class="dropdown-item" href="#">Guest Lectures</a></li>
+                            <li><a class="dropdown-item" href="./games_and_arcades.html">Leisure Activities</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">Sponsors</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light">About Us</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link text-light" href="#">Contact Us</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+    <main>
+        <div class="m-0">
+            <h2 class="w-100 text-light py-3 text-center headings" id="heading">
+                Non-Technical events
+            </h2>
+            <div class="container-fluid w-75 d-flex flex-wrap my-5">
+                <div class="event_cont m-3">
+                    <div class="card d-flex flex-sm-wrap flex-row align-items-center justify-content-center">
+                        <img src="./images/prime_sketch.png" class="card-img-top" alt="...">
+                        <div class="card-body w-auto">
+                            <p class="card-title spec_font">Card title</p>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the card's content.</p>
+                            <a href="#" class="btn btn-outline-primary btn-style">Register!!!</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- ADDRESS AND CONTACT -->
+    <footer class="text-light" id="footer">
+        <div class="container m-5 px-5 pt-5 mx-auto w-75 d-flex flex-wrap background">
+            <div class="m-2 p-3 w-50 mx-auto">
+                <h2 class="spec_font fs-1">Aarohan आरोहण 2023</h2>
+                <p class="fs-5">&#169; Rustam Ji Institute of Technology</p>
+                <div class="m-0 py-3 px-5 w-auto">
+                    <p class="fs-5 spec_font">
+                        Address
+                    </p>
+                    <p class="fs-5">
+                        RJIT, Border Security Force Academy Tekanpur, Gwalior, Madhya Pradesh 475005
+                    </p>
+                    <p class="fs-5 spec_font">
+                        Call Us
+                    </p>
+                    <p>
+                        XXXXXXXXX
+                    </p>
+                    <p class="fs-5 spec_font">
+                        Mail Us
+                    </p>
+                    <p>
+                        <a href="mailto:aarohanrjit@gmail.com" class="fs-5">aarohanrjit@gmail.com</a>
+                    </p>
+                </div>
+            </div>
+            <div class="m-2 py-5 mx-auto">
+                <div class="d-flex justify-content-center align-items-center">
+                    <iframe class="p-0" id="map"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3585.3853446515664!2d78.259682114396!3d26.020944904173465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3976de6e2cd33583%3A0xcadb08fbf8b66e1f!2sRustamji%20Institute%20of%20Technology!5e0!3m2!1sen!2sin!4v1676991020087!5m2!1sen!2sin"
+                        width="100%" height="80%" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+                <div
+                    class="container w-100 text-light text-center p-3 d-flex justify-content-between justify-content-sm-around">
+                    <a href="https://www.facebook.com/profile.php?id=100090188624120"><img src="./images/facebook.png"
+                            alt=""></a>
+                    <a href="https://www.instagram.com/aarohanrjit_2023/"><img src="./images/instagram.png" alt=""></a>
+                    <a href="https://www.linkedin.com/in/aarohan-rjit-65ab80265/"><img src="./images/linkedin.png"
+                            alt=""></a>
+                    <a href="https://twitter.com/aarohanrjit2023"><img src="./images/twitter.png" alt=""></a>
+                </div>
+            </div>
+            <!-- <div class="text-center mx-auto" style="flex-basis: 100%;">
+            <p class="">Developed by <a href="https://www.linkedin.com/in/dhruv-dorbi/">Dhruv Dorbi</a></p>
+        </div> -->
+        </div>
+
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-    crossorigin="anonymous"></script>
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>

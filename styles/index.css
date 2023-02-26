@@ -32,7 +32,7 @@
 #landing-container::before {
   position: absolute;
   content: "";
-  background-image: url("./images/1659685106371.jpg");
+  background-image: url("../images/1659685106371.jpg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -114,7 +114,7 @@
 /* Info containers*/
 .info-cont {
   overflow: hidden;
-  background-image: url("./images/half.png");
+  background-image: url("../images/half.png");
   background-size: 50%;
   background-color: black;
   background-repeat: no-repeat;
@@ -143,7 +143,7 @@
 }
 /* About Aarohan  */
 #About_Aarohan{
-  background-image: url(./images/dp.jpg) !important;
+  background-image: url(../images/dp.jpg) !important;
 }
 /* EVENTS  */
 #Events {
@@ -153,7 +153,7 @@
   border-bottom: 3px solid var(--red);
 }
 .event_cont {
-  background-image: url(./images/prime_sketch.png) !important;
+  background-image: url(../images/prime_sketch.png) !important;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -167,36 +167,12 @@
 }
 
 .card {
+  width: 18rem !important;
   background: none !important;
   text-align: center;
 }
 
-/* Footer */
-#footer {
-  overflow: hidden;
-  background-image: url("./images/frame.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: max-content !important;
-}
-#footer div:nth-child(2) div {
-  height: 90% !important;
-}
-#footer .spec_font {
-  border-bottom: none;
-}
-#footer h2 {
-  border-bottom: 3px solid var(--red) !important;
-}
-#footer a {
-  font-weight: bolder;
-  color: var(--red);
-  text-decoration-color: rgba(255, 255, 255, 0.212);
-  background-color: rgba(255, 255, 255, 0.048);
-  border-radius: 10px;
-  height: max-content !important;
-}
+
 
 /* Animation */
 .ease_in {
@@ -275,36 +251,7 @@
     width: 95vw !important;
   }
 }
-@media screen and (max-width: 1300px) {
-  #footer > div {
-    width: 90vw !important;
-    padding: 10px !important;
-  }
-  #footer > div > div {
-    width: 90% !important;
-    text-align: center !important;
-  }
-  #footer > div > div div {
-    padding: 15px !important;
-  }
-  #footer div:nth-child(2) div {
-    height: 70% !important;
-  }
-  #footer div:nth-child(2):nth-child(2) {
-    width: 80% !important;
-  }
-  #footer > div > div {
-    padding: 0px !important;
-  }
-  #map {
-    margin: 20px !important;
-  }
-  #footer div:nth-child(2) > div iframe {
-    height: 250px !important;
-    width: 250px !important;
-    padding: 0px !important;
-  }
-}
+
 @media screen and (max-width: 1200px) {
   .info-cont p {
     font-size: 16px !important;
@@ -377,15 +324,16 @@
     margin: 0px auto !important;
     width: 90%;
   }
-  #footer p,
-  #footer a {
-    font-size: 16px !important;
-  }
+  
   .spec_font {
     font-size: 19px !important;
   }
-  #landing-container::before {
+  #landing-container::before{
     background-size: cover !important;
+    width: 100vw !important;
+  }
+  #About_Aarohan{
+    background-size: contain !important;
     width: 100vw !important;
   }
   #wrap-logo-animate > div {
@@ -420,24 +368,5 @@
     height: 200px;
     margin: auto 5px !important;
     padding: 5px !important;
-  }
-  #footer img {
-    width: 30px;
-  }
-  #footer div:nth-child(2):nth-child(2) {
-    width: 100% !important;
-  }
-  #footer div:nth-child(2) div {
-    height: max-content !important;
-  }
-  #footer div:nth-child(2) div {
-    height: max-content !important;
-  }
-  #footer div:nth-child(2) div iframe {
-    height: 100% !important;
-    width: 80% !important;
-  }
-  #map {
-    height: 10% !important;
   }
 }
