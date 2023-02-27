@@ -287,10 +287,16 @@
     </main>
     <script>
         var video = document.getElementById("video");
-        video.oncanplaythrough = function () {
+        // video.oncanplaythrough = function () {
+        //     document.getElementById('loader').style.display = "none";
+        //     video.style.display = "block";
+        //     console.log("Played video");
+        // }
+        video.addEventListener('canplaythrough', (event) => {
             document.getElementById('loader').style.display = "none";
             video.style.display = "block";
-        }
+            console.log("Played video");
+         });
         navbar = document.getElementById('navbar')
         landing_cont = document.getElementById("wrap-logo-animate")
         video.onended = function () {
