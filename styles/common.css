@@ -9,16 +9,19 @@ body {
 /* Button special css  */
 .btn {
   color: var(--red) !important;
-  border-color: var(--red) !important;
+  border-color: transparent !important;
 }
 .btn:hover,
 .btn:focus,
 .btn:active,
 .btn.active,
 .open .dropdown-toggle.btn-default {
-  background-color: rgb(163, 1, 1) !important;
-  color: rgb(0, 0, 0) !important;
-  border-color: var(--red) !important;
+  background-color: transparent !important;
+  color: var(--red) !important;
+  border-color: transparent !important;
+  box-shadow:
+    -8px -8px 0 -6px var(--red),
+    8px 8px 0 -6px var(--red) !important;
 }
 
 /* NAVBAR  */
@@ -68,10 +71,11 @@ nav a {
   background-color: rgba(0, 0, 0, 0.5);
   height: max-content;
   width: 80vw;
-  box-shadow: rgb(117, 116, 116) 1px 1px 100px;
+  box-shadow: rgb(117, 116, 116) 1px 1px 100px;  
 }
 .btn-style {
   font-family: "Kurale", serif !important;
+  
 }
 /* Footer */
 #footer {
