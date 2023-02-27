@@ -173,7 +173,7 @@
 }
 .event_cont {
   /* background-image: url(../images/prime_sketch.png) !important; */
-  background-color: rgba(128, 128, 128, 0.281);
+  background-color: rgba(128, 128, 128, 0.075);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -195,8 +195,6 @@
   background: none !important;
   text-align: center;
 }
-
-
 
 /* Animation */
 .ease_in {
