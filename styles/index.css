@@ -29,7 +29,6 @@
   background-color: rgba(0, 0, 0, 0.5);
 }
 #landing-container {
-  color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -103,7 +102,7 @@
   }
 }
 #landing-container h3 {
-  background: linear-gradient(
+  /* background: linear-gradient(
     to right,
     #ff260057,
     var(--red),
@@ -112,7 +111,8 @@
   );
   background-clip: text;
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent; */
+  color: white;
 }
 @keyframes logo-animate {
   from {
@@ -141,7 +141,7 @@
 .info-cont p {
   font-size: 25px !important;
   color: white;
-  /* font-family:; */
+  font-family:Georgia, 'Times New Roman', Times, serif !important;
 }
 .info-cont div:nth-child(2) img {
   height: 400px;
@@ -173,6 +173,7 @@
 }
 .event_cont {
   /* background-image: url(../images/prime_sketch.png) !important; */
+  background-color: rgba(128, 128, 128, 0.281);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
