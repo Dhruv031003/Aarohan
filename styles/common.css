@@ -9,7 +9,7 @@ body {
 /* Button special css  */
 .btn {
   color: var(--red) !important;
-  border-color: transparent !important;
+  border-color:var(--red) !important;
 }
 .btn:hover,
 .btn:focus,
@@ -71,7 +71,6 @@ nav a {
   background-color: rgba(0, 0, 0, 0.5);
   height: max-content;
   width: 80vw;
-  box-shadow: rgb(117, 116, 116) 1px 1px 100px;  
 }
 .btn-style {
   font-family: "Kurale", serif !important;
