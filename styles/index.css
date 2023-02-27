@@ -172,7 +172,7 @@
   border-bottom: 3px solid var(--red);
 }
 .event_cont {
-  background-image: url(../images/prime_sketch.png) !important;
+  /* background-image: url(../images/prime_sketch.png) !important; */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
